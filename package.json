@@ -1,0 +1,28 @@
+{
+  "name": "full-stack-react-app-tutorial",
+  "version": "1.0.0",
+  "description": "Full stack React app tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerenctn/full-stack-react-app-tutorial.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ceren Cetin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerenctn/full-stack-react-app-tutorial/issues"
+  },
+  "homepage": "https://github.com/cerenctn/full-stack-react-app-tutorial#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
