@@ -6,7 +6,7 @@ var db = require('./database');
 
 
 const ENV = process.env.NODE_ENV; //gives info about if I am working in dev/production, use this to make some changes in backend.
-const PORT = process.env.PORT || 3000; //which port the express server will be running on. If not use 5000 port number. 
+const PORT = process.env.PORT || 4200; //which port the express server will be running on. If not use 5000 port number. 
 
 const app = express();
 app.use(express.json());
