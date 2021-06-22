@@ -29,7 +29,7 @@
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
-    "pg": "^8.6.0",
+    "pg": "^7.4.3",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
