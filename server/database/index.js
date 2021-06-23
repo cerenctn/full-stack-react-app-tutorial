@@ -7,7 +7,7 @@ class Database {
     constructor () { //called when we create a new DB object. 
         this._pool = new Pool({ //creates a new pool and passes on the connection string and SSL settings.
             connectionString: CONNECTION_STRING,
-            ssl:SSL
+            ssl: SSL ? { SSL, rejectUnauthorized: false } : SSL
         });
         this._pool.on('error', (err, client) => { //error handling for connection errors 
             console.error('Unexpected error on idle PostgreSWL client', err);
