@@ -10,7 +10,6 @@
     "start": "node server",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cerenctn/full-stack-react-app-tutorial.git"
@@ -34,5 +33,4 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
-
 }
